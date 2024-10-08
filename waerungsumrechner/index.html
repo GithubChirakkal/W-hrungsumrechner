@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Währungsrechner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Währungsrechner</h1>
+        <div class="input-section">
+            <input type="number" id="betrag" placeholder="Betrag eingeben" />
+            <select id="vonWaehlen">
+                <!-- Optionen werden per JavaScript geladen -->
+            </select>
+            <select id="zuWaehlen">
+                <!-- Optionen werden per JavaScript geladen -->
+            </select>
+            <button id="umrechnen">Umrechnen</button>
+            <button id="umkehren">Umkehren</button>
+        </div>
+        <div class="output-section">
+            <h2 id="ergebnis"></h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
